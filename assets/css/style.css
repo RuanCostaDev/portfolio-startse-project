@@ -52,7 +52,7 @@ p {
 /* Seção de apresentação */
 
 #presentation{
-    background-image: url(/assets/images/background.jpg);
+    background-image: url('/assets/images/background.jpg');
     background-size: cover;
     background-position: bottom center;
     position: relative;
@@ -150,7 +150,7 @@ p {
 /* Seção de Portifólio */
 
 #portfolio {
-    background-image: url(/assets/images/portfolio-background.jpg);
+    background-image: url('/assets/images/portfolio-background.jpg');
 }
 
 #portfolio .portfolio{
@@ -231,7 +231,7 @@ p {
 /* About me */
 
 #about-me {
-    background-image: url(/assets/images/portfolio-background.jpg);
+    background-image: url('/assets/images/portfolio-background.jpg');
 }
 
 .about-me {
@@ -322,6 +322,4 @@ h1.about-me-title {
     #portfolio .project-item:nth-child(even) {
         flex-direction: row-reverse;
     }
-
-
 }
